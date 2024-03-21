@@ -57,13 +57,13 @@ public class App extends JFrame {
 
     public static void main(String[] args) {
 //CHAMAR TELA
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                EnviarSolicitacao enviarSolicitacao = new EnviarSolicitacao(300, 200);
-                enviarSolicitacao.mostrarJanela();
-            }
-        });
+//        SwingUtilities.invokeLater(new Runnable() {
+//            @Override
+//            public void run() {
+//                EnviarSolicitacao enviarSolicitacao = new EnviarSolicitacao(300, 200);
+//                enviarSolicitacao.mostrarJanela();
+//            }
+//        });
 
         // Configurar o SparkJava para escutar na porta 3377
         port(3377);
