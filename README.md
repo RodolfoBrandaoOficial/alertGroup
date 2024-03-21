@@ -1,6 +1,8 @@
+
+;;Copy code
 # alertGroup
 
-# Automation of Alerts for WhatsApp or Telegram Groups
+# 🚨 Automation of Alerts for WhatsApp or Telegram Groups 📲
 
 This project consists of a Java application to automate the sending of alerts to WhatsApp or Telegram groups. The application uses SparkJava to create an HTTP server that receives webhook requests and sends the alerts to the groups.
 
@@ -25,7 +27,7 @@ This project consists of a Java application to automate the sending of alerts to
 git clone https://github.com/RodolfoBrandaoOficial/alertGroup.git
 
 
-Copy code
+;;Copy code
 
 2. Open the project in your Java IDE.
 
