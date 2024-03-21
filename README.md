@@ -1,5 +1,3 @@
-
-
 # alertGroup
 
 # 🚨 Automation of Alerts for WhatsApp or Telegram Groups 📲
@@ -43,6 +41,15 @@ git clone https://github.com/RodolfoBrandaoOficial/alertGroup.git
 
 - Upon receiving a request on the webhook, the server will process the alert and send it to the configured groups.
 
+- You can also test the webhook using `curl`. Here's an example command:
+```bash
+curl --location --request POST 'http://127.0.0.1:3377/webhook?alert=sim&mensagem=Jo%C3%A3o&tiposervico=Instala%C3%A7%C3%A3o'
+--header 'Authorization: Basic QWRtaW46U2VuaGFAMTIzMTIz'
+```
+
+### Project Purpose
+
+This project is designed to enable a support room to receive notifications of new installation or adjustment requests from external technicians directly on a TV with a system compatible with the Java language, such as a mini-computer.
 ## Contributing
 
 Contributions are welcome! Feel free to open an issue or send a pull request.
@@ -50,3 +57,10 @@ Contributions are welcome! Feel free to open an issue or send a pull request.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+3 / 3
+
+
+
+
+
