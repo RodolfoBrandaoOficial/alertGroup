@@ -4,6 +4,12 @@
 
 This project consists of a Java application to automate the sending of alerts to WhatsApp or Telegram groups. The application uses SparkJava to create an HTTP server that receives webhook requests and sends the alerts to the groups.
 
+<div style="text-align: center;">
+    <img src="viewReadme/imgAlertGroup.png" alt="AlertGroup" width="80%">
+</div>
+
+
+
 ## Features
 
 - Sending alerts to WhatsApp or Telegram groups.
